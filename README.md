@@ -1,0 +1,1 @@
+# Static_Website_In_Azure_Storage_Account
