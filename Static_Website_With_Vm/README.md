@@ -40,6 +40,7 @@ terraform apply
 
 ## Screenshot :
 - When I browse the storage account web endpoint like https://${storage_account_name}.z13.web.core.windows.net/
+
 ![web](/Images/web02.png)
 
 - When I browse the Public IP of the VM 

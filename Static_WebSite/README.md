@@ -3,7 +3,7 @@
 Azure Blob Storage is ideal for storing large amounts of unstructured data such as text, images, and videos. Because blob storage also provides static website hosting support, it's a great option in cases where you don't require a web server to render content. Although you're limited to hosting static content such as HTML, CSS, JavaScript, and image files, you can use serverless architectures including Azure Functions and other Platform as a service (PaaS) services.
 
 ## Architecture Diagram :
-![web](Images/web.png)
+![web](/Images/web.png)
 
 ###### Apply the Terraform configurations :
 
