@@ -1,4 +1,4 @@
-# Azure Static Website with VM Redirect - Terraform Setup
+# 🌐 Azure Static Website with VM Redirect – Terraform Setup
 
 This Terraform project deploys:
 
@@ -10,13 +10,10 @@ This Terraform project deploys:
 
 ## 🚀 Architecture Overview
 
-User (Browser)
-│
-▼
-Windows VM (Port 80)
-│
-▼
-Redirects to Azure Static Website
+###### User (Browser) ---> Windows VM (Port 80) ---> Redirects to Azure Static Website
+
+## 🖼 Architecture Diagram
+![vm](/Images/Static_web_VM.png)
 
 ## ⚙️ Getting Started 
 Clone the repository:
@@ -38,10 +35,11 @@ terraform plan
 terraform apply
 ```
 
-## Screenshot :
+## 🔍 Results & Screenshots
 - When I browse the storage account web endpoint like https://${storage_account_name}.z13.web.core.windows.net/
 
 ![web](/Images/web02.png)
 
-- When I browse the Public IP of the VM 
+- When I browse the Public IP of the VM
+ 
 ![vm_result](/Images/vm_result.png)
